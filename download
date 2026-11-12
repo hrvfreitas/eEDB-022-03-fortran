@@ -1,0 +1,11 @@
+pipeline_etl
+pipeline_etl_coarray
+pipeline_etl_parallel
+*.mod
+*.smod
+*.o
+data/raw/*
+data/trusted/*
+data/delivery/*
+!data/raw/origem
+!data/raw/origem/.gitkeep
